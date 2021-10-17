@@ -16,7 +16,7 @@
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     },
-    "LibApp_Gr2": {
+    "LibApp2": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
