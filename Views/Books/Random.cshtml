@@ -3,9 +3,12 @@
 @{ 
     ViewBag.Title = "Random";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    var className = Model.Customers.Count > 1 ? "popular" : null;
 }
 
-<h2>@Model.Book.Name</h2>
+<h2 class="@className">@Model.Book.Name</h2>
 
 @if (Model.Customers.Count == 0)
             {
