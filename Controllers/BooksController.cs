@@ -16,9 +16,10 @@ namespace LibApp2.Controllers
 
             var customers = new List<Customer>
             {
-                new Customer { Name = "Jan Kowalski"},
-                new Customer { Name = "Piotr Nowak" }
+                new Customer{Name =  "Customer 1"},
+                new Customer {Name = "Customer 2"}
             };
+
 
             var viewModel = new RandomBookViewModel
             {
@@ -28,6 +29,7 @@ namespace LibApp2.Controllers
 
             return View(viewModel);
         }
+
 
         public IActionResult Edit(int bookId)
         {
